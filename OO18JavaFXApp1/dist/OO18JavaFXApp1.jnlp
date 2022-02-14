@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="OO18JavaFXApp1.jnlp">
+  <information>
+    <title>OO18JavaFXApp1</title>
+    <vendor>pieterkoopman</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="OO18JavaFXApp1.jar" size="20431" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="OO18JavaFXApp1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="oo18javafxapp1.OO18JavaFXApp1"  name="OO18JavaFXApp1" />
+  <update check="always"/>
+</jnlp>
